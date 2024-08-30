@@ -1,6 +1,6 @@
 {
-  "name": "mini-app-template",
-  "version": "1.0.0",
+  "name": "mini-app-template-kbz",
+  "version": "1.1.0",
   "type": "module",
   "description": "React mini app template",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "preview": "vite preview"
   },
   "bin": {
-    "mini-cinema-booking": "./index.js"
+    "mini-app-template-kbz": "./bin/create-mini-app.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,8 @@
   "license": "MIT",
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "sass": "^1.77.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
